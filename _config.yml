@@ -1,0 +1,13 @@
+# Site settings
+title: Freek Wielstra's Portfolio and Blog
+# email:
+description: > # this means to ignore newlines until "baseurl:"
+  Portfolio & blog of yours truly. Typos, errors, improvements, etc? <a href="https://github.com/fwielstra/fwielstra.github.io">Send us a PR</a>.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://fwielstra.github.io" # the base hostname & protocol for your site
+twitter_username: FrWielstra
+github_username:  fwielstra
+linkedin_username: freekwielstra
+
+# Build settings
+markdown: kramdown
