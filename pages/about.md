@@ -14,7 +14,7 @@ If you are a recruiter, I am currently *not* for hire. However, if you are going
 
  * What company you work for and want me to work for
  * What the job is (responsibilities, technologies, area of expertise)
- * Working conditions (if it's open office you can piss off)
+ * Working conditions (if it's an open-plan office you can piss off)
  * The offered pay scale (rough indication is fine; I won't bother if it's equal or less than what I earn now)
 
 I will not reply to the generic "let's sit down for a chat!" thing if you're not being specific enough / just fishing. I don't see how that works for anyone.
