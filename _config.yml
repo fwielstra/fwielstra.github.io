@@ -1,13 +1,32 @@
 # Site settings
-title: Freek Wielstra's Portfolio and Blog
+
+title: Freek Wielstra
+description: "Freek Wielstra's blog and portfolio"
 # email:
-description: > # this means to ignore newlines until "baseurl:"
-  Portfolio & blog of yours truly.
-baseurl: "" # the subpath of your site, e.g. /blog/
+
 url: "http://fwielstra.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+title_image: "http://thelifestream.net/forums/images/smilies/monsteravatar.png"
+github_repository: https://github.com/fwielstra/fwielstra.github.io
+google_analytics: "UA-68151138-1"
+addthis_id: ra-5607e58e254a0aac
+disqus_account: fwielstragithub
+# post_limit: 5
+
+# Social usernames/URLs
 twitter_username: FrWielstra
 github_username:  fwielstra
-linkedin_username: freekwielstra
+linkedin_link: http://linkedin.com/in/freekwielstra
+google_plus_link: https://plus.google.com/+FreekWielstra/
+stackoverflow_link: http://stackoverflow.com/users/204840/fwielstra
+
+# Footer
+footer_left: "<a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte Noire</a> theme"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/fwielstra/fwielstra.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
