@@ -476,17 +476,17 @@ Similarly, [Backbone.js' Model api][backboneJS model] also exposes promises in i
 
 I would definitely recommend aiming for a promise-based front-end application whenever developing a new webapp, it makes the code so much cleaner, especially combined with functional programming paradigms. More functional programming patterns can be found in [Reginald Braithwaite's Javascript Allongé book, free to read on LeanPub][allonge]; some of those should also be useful in writing promise-based code.
 
-[original poast]:                         http://blog.xebia.com/2014/02/23/promises-and-design-patterns-in-angularjs/
+[allonge]:                                https://leanpub.com/javascript-allonge
+[Angular HTTP service]:                   http://docs.angularjs.org/api/ng.$http
+[Angular Q service]:                      http://docs.angularjs.org/api/ng.$q
+[AngularJS scope assignment deprecation]: https://github.com/angular/angular.js/commit/5dc35b527b3c99f6544b8cb52e93c6510d3ac577
+[backboneJS model]:                       http://backbonejs.org/#Model
 [CommonJS homepage]:                      http://www.commonjs.org/
 [CommonJS promises]:                      http://wiki.commonjs.org/wiki/Promises
-[ES2015 Promise spec]:                    http://www.ecma-international.org/ecma-262/6.0/#sec-promise-objects
 [ES2015 Promise browser support]:         https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#Browser_compatibility
-[Angular Q service]:                      http://docs.angularjs.org/api/ng.$q
-[kriskowal Q]:                            https://github.com/kriskowal/q
-[Angular HTTP service]:                   http://docs.angularjs.org/api/ng.$http
-[AngularJS scope assignment deprecation]: https://github.com/angular/angular.js/commit/5dc35b527b3c99f6544b8cb52e93c6510d3ac577
-[NodeJS promise discussion]:              https://groups.google.com/forum/#!msg/nodejs/jaufClrXU9U/ov5WHIk7SAwJ
+[ES2015 Promise spec]:                    http://www.ecma-international.org/ecma-262/6.0/#sec-promise-objects
 [jQuery deferred]:                        http://api.jquery.com/category/deferred-object/
-[backboneJS model]:                       http://backbonejs.org/#Model
-[allonge]:                                https://leanpub.com/javascript-allonge
+[kriskowal Q]:                            https://github.com/kriskowal/q
 [NodeJS ES6]:                             https://nodejs.org/en/docs/es6/
+[NodeJS promise discussion]:              https://groups.google.com/forum/#!msg/nodejs/jaufClrXU9U/ov5WHIk7SAwJ
+[original poast]:                         http://blog.xebia.com/2014/02/23/promises-and-design-patterns-in-angularjs/
