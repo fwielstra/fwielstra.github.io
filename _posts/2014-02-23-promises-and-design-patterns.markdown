@@ -209,11 +209,11 @@ deferred.resolve('A');
 
 This will output the following to the console:
 
-[shell]
+{% highlight text %}
 A
 B
 C
-[/shell]
+{% endhighlight %}
 
 This is a simple example though. It becomes really powerful if your `.then()` callback returns *another promise*. In that case, the next `.then()` will only be executed once that promise resolves. This pattern can be used for serial HTTP requests, for example (where a request depends on the result of a previous one):
 
