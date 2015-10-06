@@ -39,6 +39,7 @@ You get the idea. In Javascript however, there is an alternative to dealing with
 <!--more-->
 
 The concept behind promises is pretty simple, and has two components:
+
  * Deferreds, representing **units of work**, and
  * Promises, representing **data** from those Deferreds.
 
@@ -246,6 +247,7 @@ promise
 {% endhighlight %}
 
 In summary:
+
 * Promise chains will call the next `.then()` in the chain with the return value of the previous `then()` callback (or undefined if none)
 * If a `then()` callback returns a promise object, the next `then()` will only execute if/when that promise resolves
 * A final `catch()` at the end of the chain will provide a single error handling point for the entire chain
