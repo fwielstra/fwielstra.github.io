@@ -468,6 +468,8 @@ I hope this article gives people some insight into promises and how they can be 
 
 With that in mind, it's rather odd that [promises were scrapped from NodeJS][NodeJS promise discussion] early on in its development in favor of the current callback nature; I haven't dived into it completely yet, but it seems it had performance issues that weren't compatible with Node's own goals. I do think it makes sense though, if you consider NodeJS to be a low-level library; there are plenty of libraries out there that add the higher-level promises API to Node (like [the aforementioned Q][kriskowal Q]).
 
+(Update 2015: NodeJS 4.0 and further now use a more modern version of the V8 engine, now supporting promises natively. See [ES6 in the NodeJS docs][NodeJS ES6] for details.)
+
 Another note is that I wrote this post with AngularJS in mind, however, promises and promise-like programming has been possible in the grandfather of Javascript libraries for a couple of years now, jQuery; [Deferreds][jQuery deferred] were added in jQuery 1.5 (January 2011). Not all plugins may be using them consistently though.
 
 Similarly, [Backbone.js' Model api][backboneJS model] also exposes promises in its methods (`save()` etc), however what I understand it doesn't really work right alongside its model events. I might be wrong though, it's been a while.
@@ -487,3 +489,4 @@ I would definitely recommend aiming for a promise-based front-end application wh
 [jQuery deferred]:                        http://api.jquery.com/category/deferred-object/
 [backboneJS model]:                       http://backbonejs.org/#Model
 [allonge]:                                https://leanpub.com/javascript-allonge
+[NodeJS ES6]:                             https://nodejs.org/en/docs/es6/
