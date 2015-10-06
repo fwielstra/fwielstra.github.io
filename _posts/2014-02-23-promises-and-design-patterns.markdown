@@ -42,7 +42,7 @@ The concept behind promises is pretty simple, and has two components:
  * Deferreds, representing **units of work**, and
  * Promises, representing **data** from those Deferreds.
 
-[!Promise flowchart]({{ site.url }}/assets/promises/promises-flowchart.png)
+![Promise flowchart]({{ site.url }}/assets/promises/promises-flowchart.png)
 *[source](http://blog.mediumequalsmessage.com/promise-deferred-objects-in-javascript-pt1-theory-and-semantics)*
 
 Basically, you use a Deferred as a communications object to signal the start, progress, and completion of work.
