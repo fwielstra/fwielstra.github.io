@@ -3,7 +3,6 @@ layout:     post
 title:      Promises and Design Patterns
 date:       2014-02-23 14:23:00
 summary:    A post about using promises to structure your AngularJS or Javascript applications
-categories: javascript, angularjs
 tags:
  - javascript
  - angularjs
