@@ -52,7 +52,7 @@ A Promise in turn is an object output by a Deferred that represents data; it has
 
 An important thing that differentiates promises from callbacks is that you can attach a handler *after* the promise state goes to *resolved*. This allows you to pass data that may or may not be there yet around in your application, cache it, etc, so that its consumers can perform operations on the data either immediately or as soon as it arrives.
 
-For the remainder of this article we'll talk about promises and such in the context of AngularJS. AngularJS relies heavily on promises throughout its codebase, both the framework and the application code you write in it. AngularJS uses its own implementation of [the Promises spec][CommonJS promises], the [$q service][Angular Q service], which in turn is a lightweight implementation of [the Q library][kriskowal Q].
+For the remainder of this article we'll talk about promises and such in the context of AngularJS. AngularJS relies heavily on promises throughout its codebase, both the framework and the application code you write in it. AngularJS uses its own implementation of [the Promises spec][CommonJS promises], the [$q service][Angular Q service], which in turn is a lightweight implementation of [the Q library][kriskowal Q], written by the author of the Promises/B and Promises/D specs, and probably very influential on the current [ES2015 spec][ES2015 Promise spec].
 
 `$q` implements all of the Deferred / Promise methods described above, plus a few in `$q` itself: `$q.defer()`, which creates a new Deferred object; `$q.all()`, which allows you to wait for multiple promises to resolve, and the methods `$q.when()` and `$q.reject()`, utility methods we'll go into later on.
 
