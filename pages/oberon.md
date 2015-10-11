@@ -2,7 +2,7 @@
 layout: page
 title: Portfolio - Oberon Interactive
 show_in_nav: false
-permalink: /portfolio/oberon
+permalink: /portfolio/oberon/
 ---
 
 In early 2009, I started my last internship. In a bold move, I made the decision to go to Amsterdam; in part because I had already made contact with the company there two years earlier (before my internship at FBTO), but also because I figured I should make a big step in life and move out of the relative safety of my parental house / area. The company I went to was Oberon Interactive, a... I guess it's a marketing company; it started out in the 90's making screensavers, which, in the pre-internet era, was a good digital marketing tool - the kind of thing that would be handed out via diskettes or bundled with CD's packaged along computer magazines. As the internet evolved, so did they, moving more and more towards online marketing - building websites, Facebook pages and apps, and later on, mobile applications. They had a go at the mobile gaming market when I was there too with Merchant, a location-based iOS game. I never heard of it outside of that company, so I'm not sure if it was a big success (although they did release a sequel later on)
