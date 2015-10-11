@@ -6,10 +6,11 @@ permalink: /portfolio/
 
 A list of projects I've worked on over the past years; I will try and describe these in full if allowed by the employer and given the time to write it down.
 
-2004 - Friese Poort
+## 2004 - Friese Poort
+
 [Schedule web application]({{site.url}}/portfolio/schedule-webapp/)
 
-2005-2009 - NHL Hogeschool (Bachelor level education)
+## 2005-2009 - NHL Hogeschool (Bachelor level education)
 
 2007: [Boatiko]({{site.url}}/portfolio/boatiko/), a remote-controlled boat, controlled via bluetooth. Won a race.<br />
 2008?: [Metrics Dashboard]({{site.url}}/portfolio/metrics-dashboard/), basically Sonar before it was mainstream <br />
