@@ -89,6 +89,8 @@ scp -v -P <port> backup-2015-10-14-08:00:00.tgz root@<new server IP>:/root/backu
 
 It seems to run at between 10 and 12.5 MB / second, which corresponds to a 100 mbit network; a bit disappointing, but, I can live with it. ETA 15 minutes.
 
+![SCP progress]({{ site.url }}/assets/moving-servers/scp-progress.png)
+
 (to be continued)
 
 [Wordpress]: https://wordpress.org/
