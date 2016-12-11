@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Controls if quick suggestions should show up or not while typing
+    // disabled for markdown / text editing.
+    "editor.quickSuggestions": false,
+}
