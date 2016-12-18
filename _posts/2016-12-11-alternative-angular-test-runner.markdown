@@ -133,13 +133,13 @@ import FooController from './foo.controller'
 
 let fooService, fooController
 
-describe("The FooController", () {
+describe('The FooController', () {
   beforeEach(() => {
     fooService = jasmine.createMock('fooService', ['bar'])
     fooController = new FooController(fooService)
   })
 
-  it("should prove something", () {
+  it('should prove something', () => {
     fooController.doTheThing();
     expect(fooService.bar).toHaveBeenCalledWith('9/11 was an inside job')
   })
@@ -174,7 +174,7 @@ describe('when a promise is resolved', () => {
     process.nextTick(done)
   })
 
-  it('should have done something async'() {
+  it('should have done something async', () => {
     expect(fooService.result).toEqual('resolved')
   })
 })
@@ -196,3 +196,5 @@ This test runner should allow you to rewrite your tests - or mostly your test ru
 In our current project, we have (only) about a hundred or so test cases running (vs a thousand for the traditional test runner), but they run in approx 0.06 seconds on my machine, versus several seconds for the other tests. The main overhead in running tests is booting up node-babel, which relies on in-memory buffers and the like before it reaches maximal speed. Shouldn't be a problem for running tests in 'watch' mode. It might be possible to run Babel in daemon mode, to reduce this (short) overhead.
 
 Finally, this approach might work for Angular 2; it depends on whether Typescript and Angular 2 allow you to write your logic in one file, and add Angular or framework-specific boilerplate in another file. This is true for Angular 1, but Angular 2 relies on annotations, which might cause problems. Of course, it should be possible to just ignore the annotations while running tests. 
+
+_note: this post was cross-posted to [the Xebia blog](http://blog.xebia.com/an-alternative-angularjs-test-runner/)_
