@@ -62,7 +62,7 @@ Complexity, cost, legal and performance reasons aside, honestly, you neither nee
 
 1. If you're writing browser-specific JS, you're doing it wrong. Or you're writing a library, in which case, disregard this blog post. Libraries and tools like Babel, TSC and related polyfills should take away most if not all browser-specific issues. Second, it's 2016, usage of older browser has dropped to trivial amounts, and most browsers will support most features that tools like Babel will compile down to without needing polyfills. It shouldn't be a problem for any modern webapp to run under IE 9 and newer.
 
-2. Unit tests should test logic, not browser quirks. What a unit test should do is go "if I call this function with these arguments, I expect this to happen". Nothing browser-specific in there. Don't waste time on things that are unlikely to happen. Unless you're writing a library or being clever, in which case, stop being clever. 
+2. Unit tests should test logic, not browser quirks. What a unit test should do is go "if I call this function with these arguments, I expect this to happen". Nothing browser-specific in there. Don't waste time on things that are unlikely to happen. Unless you're writing a library or being clever, in which case, stop being clever.
 
 TL;DR: in my opinion, you don't need the complexity of running in multiple browsers, and therefore, you don't need the overhead of serving files and running your tests in a headless browser.
 
@@ -139,9 +139,9 @@ describe('The FooController', () {
     fooController = new FooController(fooService)
   })
 
-  it('should prove something', () => {
+  it('should do something', () => {
     fooController.doTheThing();
-    expect(fooService.bar).toHaveBeenCalledWith('9/11 was an inside job')
+    expect(fooService.bar).toHaveBeenCalledWith('I am going to do the thing')
   })
 })
 ```
@@ -195,6 +195,6 @@ This test runner should allow you to rewrite your tests - or mostly your test ru
 
 In our current project, we have (only) about a hundred or so test cases running (vs a thousand for the traditional test runner), but they run in approx 0.06 seconds on my machine, versus several seconds for the other tests. The main overhead in running tests is booting up node-babel, which relies on in-memory buffers and the like before it reaches maximal speed. Shouldn't be a problem for running tests in 'watch' mode. It might be possible to run Babel in daemon mode, to reduce this (short) overhead.
 
-Finally, this approach might work for Angular 2; it depends on whether Typescript and Angular 2 allow you to write your logic in one file, and add Angular or framework-specific boilerplate in another file. This is true for Angular 1, but Angular 2 relies on annotations, which might cause problems. Of course, it should be possible to just ignore the annotations while running tests. 
+Finally, this approach might work for Angular 2; it depends on whether Typescript and Angular 2 allow you to write your logic in one file, and add Angular or framework-specific boilerplate in another file. This is true for Angular 1, but Angular 2 relies on annotations, which might cause problems. Of course, it should be possible to just ignore the annotations while running tests.
 
 _note: this post was cross-posted to [the Xebia blog](http://blog.xebia.com/an-alternative-angularjs-test-runner/)_
