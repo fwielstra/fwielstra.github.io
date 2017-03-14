@@ -9,7 +9,7 @@ tags:
  - security
 ---
 
-Not too long ago, we ran into an apparent security issue at my current assignment - people could sign in with a regular account, but get the authentication and permissions of an administrator user (a priviledge escalation bug). As it turned out the impact was low, as the user would need to be logged in as an admin user already, but it was a very confusing issue. In this post I'll try and explain the situation, how browsers handle wildcard subdomain cookies, and what to keep in mind when building an authentication back-end.
+Not too long ago, we ran into an apparent security issue at my current assignment - people could sign in with a regular account, but get the authentication and permissions of an administrator user (a privilege escalation bug). As it turned out the impact was low, as the user would need to be logged in as an admin user already, but it was a very confusing issue. In this post I'll try and explain the situation, how browsers handle wildcard subdomain cookies, and what to keep in mind when building an authentication back-end.
 
 First, some background information. We run a microservices architecture where security is handled via an authentication proxy of sorts; each request to any microservice passes through it, and it will check a JWT token cookie sent by the client. If the contents (a base64 encoded set of keys / values containing stuff like user ID, permissions, etc) match with a signature (signed by a private key in the authentication proxy), the request is forwarded to the actual microservice in question, enriched with a couple of headers containing the user's authentication information.
 
