@@ -32,16 +32,27 @@ PARTS LIST:
 
 Total: €100-110 ish.
 
-## ITERATION 2
+## ITERATION 3
 
- * Use a Raspberry Pi Zero W
+ * Use an ESP32 (DoIt esp32 devkit v1)
   * challenge: setting up wifi
- * Use an OLED or graphical screen (someone mentioned a nokia phone screen?)
-  * e-ink €33+: https://www.pi-supply.com/product/papirus-zero-epaper-screen-phat-pi-zero/
-  * e-ink €17: https://nl.aliexpress.com/item/250x122-2-13inch-E-Ink-display-HAT-for-Raspberry-Pi-supports-partial-refresh/32809858088.html
+ * Use an OLED or graphical screen
   * tiny oled €15 on adafruit: https://www.adafruit.com/product/3527
+  * much cheaper on banggood.
  * custom 3d printed enclosure (two-tone with xebia logo \o/)
 
+ PARTS LIST:
+ 
+  * DOIT ESP32 Devkit v1: E5.45
+  * Joy-IT 0.96 inch OLED display (ssd1316, with i2c): E15.92; cheaper from china
+  * (branded) LogiLink 2000 mAh powerbank - €5,80 (Reichelt) (includes short usb cable)
+  * Bit of wires and tape - negligible
+  
+  Total: E27.17
+  With cheaper oled (E4.54) and without battery: E9.99 
+  
+  
+  
 ## OTHER THINGS
 
  * is LoRa plausible to use? For permanent intenret connection at low / no price
