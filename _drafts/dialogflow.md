@@ -1,4 +1,4 @@
-# Building Conversational I nterfaces with Dialogflow
+# Building Conversational Interfaces with Dialogflow
 
 Ever since Siri became a standard feature on iOS, voice commands and conversational interfaces have gone through a renaissance of sorts, finally passing a threshold from gimmicky tech demos or science fiction to actual usability. They started out rough at first, being little more than voice command runners, but soon after they became fully conversational - that is, able to understand natural language instead of voice commands, able to ask follow-up questions.
 
@@ -50,7 +50,7 @@ When programming an Intent to get specific user input - that is, what the user i
 
 ## Entities
 
-This key word is known as an [Entity](https://dialogflow.com/docs/entities) in Dialogflow. By default, there are a number of built-in Entities, known as System Entities. These are for example numbers, dates, durations, locations, genres, flight numbers, etc. When defining your Intent's Training Phrases, Dialogflow will automatically start highlighting System Entities it recognises already. If it doesn't automatically recognise the entitiy, you can double-click it and tell Dialogflow to interpret that phrase as one of its built0in system entities.
+This key word is known as an [Entity](https://dialogflow.com/docs/entities) in Dialogflow. By default, there are a number of built-in Entities, known as System Entities. These are for example numbers, dates, durations, locations, genres, flight numbers, etc. When defining your Intent's Training Phrases, Dialogflow will automatically start highlighting System Entities it recognises already. If it doesn't automatically recognise the entitiy, you can double-click it and tell Dialogflow to interpret that phrase as one of its builtin system entities.
 
 ![System entities](dialogflow/entities.png)
 
@@ -119,3 +119,6 @@ An additional technology Google is working on is trying to make the interactions
 https://www.youtube.com/watch?v=bd1mEm2Fy08
 
 The combination of Dialogflow, Contact Center AI and Duplex has a huge potential to, within the next year or so, transform contact centers around the world. Combine it with Google's Translate service and international consolidation of customer support will become a reality. Microsoft and other companies showcased realtime speech to translated speech engines, allowing people that don't speak the same language to be able to have a conversation. Applying this to customer support will be a huge step for a lot of companies.
+
+Interested in building your own assistant? Xebia is [offering a (free!) Google Assistant for Your Business workshop](https://pages.xebia.com/workshop-google-assistant), at a date and location of your choosing; the workshop takes about two hours, and by joining you automatically get a chance to win a free Google Home smart speaker.
+

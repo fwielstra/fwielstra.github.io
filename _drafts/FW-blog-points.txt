@@ -1,0 +1,41 @@
+Below paragraph 2 - 
+Change -- more -- to a subheading. I suggest the Bender Bending Rogriguez classic line 'Interface with my ass'. :P
+
+Paragraph 3 - 
+Change 'has' to 'have'
+The links to ELIZA conversation and I for one welcome our new robot overlords both bring up a 404 page
+
+Paragraph 4 -
+Horribly fragmented, try this:
+Work on natural language processing and AI continued over the decades. One of the most important milestones for today's conversational interfaces was IBM's Watson, which can answer questions posed in natural language. It famously won a game of Jeopardy in 2011.
+
+Paragraph 6 -
+Fragmented again, remove the comma after 2015.
+
+Paragraph 8 -
+Both links in this paragraph link to the Dialogflow site.
+
+Dialogflow paragraph - 
+Capitalise Raspberry Pi FFS; it's a title!
+
+Building interfaces.... paragraph -
+Correct the typo on 'official'.
+
+Entities paragraph 1 -
+Change builtin to built in - they are two separate words.
+
+Contexts paragraph 2 -
+Remove the superfluous full stop from "When would you like to go?"
+
+
+Fulfilment paragraph 3 -
+It's either et cetera or etc. Note the space on the former.
+
+The Near Future paragraph 3 -
+Again with et cetera!
+Put 'I'm hypothesising here' in brackets, it'll flow better.
+
+Additional comments
+You still Murcanise spellings which is kinda annoying.
+Check all of your Github links, some work but some don't. Al other links work fine.
+You did a good Dutchman! You made it sound interesting and loaded with potential.
