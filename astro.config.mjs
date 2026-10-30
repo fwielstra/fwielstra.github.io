@@ -8,7 +8,9 @@ import { defineConfig, fontProviders } from 'astro/config';
 export default defineConfig({
 	site: 'https://fwielstra.github.io',
 	redirects: {
+		// Jekyll-era pages that no longer exist
 		'/posts': '/blog',
+		'/search': '/blog',
 	},
 	integrations: [mdx(), sitemap()],
 	fonts: [
