@@ -1,4 +1,9 @@
-_site
-.sass-cache
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
 TODO.todo
 .DS_Store
