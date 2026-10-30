@@ -2,7 +2,7 @@
 layout:     post
 title:      "Working with PaintCode and Interface Builder in XCode"
 date:       2015-04-04 07:00:09
-summary:    "Using @IBDesignable and prepareForInterfaceBuilder to see PaintCode graphics in Interface Builder."
+summary:    "Every self-respecting iOS developer should know about PaintCode by now, an OSX app for drawing graphics that don't save as images, but as lengths of code that draw graphics. The benefits of this are vastly reduced app installation size - no need to include three resolutions of the same image for every image - and seamlessly scalable graphics."
 tags:
  - ios
  - swift

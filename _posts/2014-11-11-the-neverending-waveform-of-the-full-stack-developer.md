@@ -2,7 +2,7 @@
 layout:     post
 title:      "The neverending waveform of the full-stack developer"
 date:       2014-11-11 15:50:21
-summary:    "Why the full-stack developer isn't dead, but part of a recurring cycle between simple and complex."
+summary:    "There was an article on Techcrunch a couple days ago which was linked in our internal mailing list the other day, titled The Rise And Fall Of The Full Stack Developer. I read it, and I just couldn't figure out why the title is about \"the fall\" of the full-stack developer (and I said as much on the mailing list, after which I was encouraged to write this blog post). In this post I'll try and explain why it's not the end, but just a stage in a recurring cycle"
 tags:
  - software development
  - full-stack

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Extending AngularJS services with the Decorate method"
 date:       2014-08-08 11:00:54
-summary:    "Using AngularJS's decorate method to extend $q promises with your own helper methods."
+summary:    "Many large Angular applications tend to see a lot of repetition - same API endpoint, same method of dealing with and transforming data, etcetera. One technique you can use to at least alleviate that is using AngularJS's `decorate` method, which allows you to extend, adjust or even fully replace any existing service."
 tags:
  - javascript
  - angularjs

@@ -2,7 +2,7 @@
 layout:     post
 title:      "The AngularJS Promise DSL"
 date:       2014-08-11 09:21:12
-summary:    "Announcing ngPromiseDsl, an open source library that extends AngularJS promises with helpful methods."
+summary:    "As promised in my previous post, I just pushed the first version of our \"Angular Promise DSL\" to Github. It extends AngularJS's $q promises with a number of helpful methods to create cleaner applications."
 tags:
  - javascript
  - angularjs

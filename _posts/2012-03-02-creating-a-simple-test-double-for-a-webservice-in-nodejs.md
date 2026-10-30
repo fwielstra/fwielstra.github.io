@@ -2,7 +2,7 @@
 layout:     post
 title:      "Creating a simple Test Double for a webservice in NodeJS"
 date:       2012-03-02 11:37:17
-summary:    "Building a proxying fake webservice in NodeJS to get predictable data in integration tests."
+summary:    "It should be common knowledge that for certain types of automated tests, you do not want to rely on the availability of external services for a number of reasons:"
 tags:
  - nodejs
  - javascript

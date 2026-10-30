@@ -2,7 +2,7 @@
 layout:     post
 title:      "NodeJS – The what, why, how and when"
 date:       2011-08-16 14:00:04
-summary:    "An introduction to NodeJS: what it is, why evented I/O matters, how it works under the hood, and when to use it."
+summary:    "The NodeJS five-word sales pitch from their own website is “Evented I/O for V8 Javascript”. We’ll get to what that means exactly in the How. NodeJS, in a few more words, is a server-side application framework with a focus on high concurrent performance. Applications written for Node run in a single-threaded, event-based process."
 tags:
  - nodejs
  - javascript

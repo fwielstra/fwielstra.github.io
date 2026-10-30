@@ -2,7 +2,7 @@
 layout:     post
 title:      "Building Conversational Interfaces with Dialogflow"
 date:       2018-10-23 11:58:38
-summary:    "A short history of conversational interfaces, and an overview of building one with Dialogflow."
+summary:    "Ever since Siri became a standard feature on iOS, voice commands and conversational interfaces have gone through a renaissance of sorts, finally passing a threshold from gimmicky tech demos or science fiction to actual usability. They started out rough at first, being little more than voice command runners, but soon after they became fully conversational – that is, able to understand natural language instead of voice commands, able to ask follow-up questions."
 tags:
  - dialogflow
  - conversational interfaces
