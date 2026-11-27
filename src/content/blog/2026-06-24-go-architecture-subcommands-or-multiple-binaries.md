@@ -16,7 +16,7 @@ When building software in Go, often times the code has multiple distinct tasks i
 
 In this post we'll discuss two of those, how to implement either, and the tradeoffs between the two.
 
-The example source files are available in [the GitHub repository](https://github.com/fwielstra/fwielstra.github.io/tree/main/examples/go-architecture-subcommand-or-multi-binary).
+The example source files are available in [the GitHub repository](https://github.com/fwielstra/fwielstra.github.io/tree/master/examples/go-architecture-subcommand-or-multi-binary).
 
 ## Subcommands
 
